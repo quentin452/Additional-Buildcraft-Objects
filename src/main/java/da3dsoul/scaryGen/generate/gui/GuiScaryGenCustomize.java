@@ -21,8 +21,6 @@ public class GuiScaryGenCustomize extends GuiScreen {
 	private GuiButton				checkButton;
 	private String					origOptions;
 	private String					lastText;
-	@SuppressWarnings("unused")
-	private static final String		__OBFID	= "CL_00000693";
 
 	public GuiScaryGenCustomize(GuiCreateWorld parentScreen, WorldTypeScary worldType) {
 		this.parentScreen = parentScreen;
@@ -136,7 +134,7 @@ public class GuiScaryGenCustomize extends GuiScreen {
 
 			int i = Mouse.getEventX() * this.width / this.mc.displayWidth;
 			int j = this.height - Mouse.getEventY() * this.height / this.mc.displayHeight - 1;
-			
+
 			if (k < 0) {
 				k = -1;
 			}

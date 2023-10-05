@@ -14,7 +14,6 @@ import net.minecraft.world.gen.feature.WorldGenerator;
 public class WorldGenXPLake extends WorldGenerator
 {
     private Block field_150556_a;
-    private static final String __OBFID = "CL_00000418";
 
     public WorldGenXPLake()
     {

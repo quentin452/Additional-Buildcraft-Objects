@@ -22,7 +22,6 @@ import java.util.Random;
 public class BlockLargeButton extends Block
 {
     private final boolean field_150047_a;
-    private static final String __OBFID = "CL_00000209";
 
     public BlockLargeButton(boolean isWood)
     {

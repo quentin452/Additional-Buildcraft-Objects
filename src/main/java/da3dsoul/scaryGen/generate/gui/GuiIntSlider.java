@@ -17,8 +17,6 @@ public class GuiIntSlider extends GuiButton
     public boolean isBeingPressed;
     private final int sliderMinValue;
     private final int sliderMaxValue;
-    @SuppressWarnings("unused")
-	private static final String __OBFID = "CL_00000680";
 
     public GuiIntSlider(GuiScaryGenCustomize parent, int id, int xPosition, int yPosition, String option, int minValue, int maxValue)
     {
@@ -103,7 +101,7 @@ public class GuiIntSlider extends GuiButton
             parent.worldType.setOption(option, currentValue);
             currentValue = parent.worldType.getIntegerOption(option);
             this.displayString = option + ": " + currentValue;
-            
+
             this.isBeingPressed = true;
             return true;
         }
@@ -112,12 +110,12 @@ public class GuiIntSlider extends GuiButton
             return false;
         }
     }
-    
+
     public boolean isMouseOver(int i, int j)
     {
     	return i >= this.xPosition && j >= this.yPosition && i < this.xPosition + this.width && j < this.yPosition + this.height;
     }
-    
+
     public void addValue(int i)
     {
     	currentValue += i;

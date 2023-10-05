@@ -67,6 +67,11 @@ public class ReactorOreGeneratorOverride implements RetroactiveGenerator {
 
     }
 
+    @Override
+    public boolean canGenerateAt(World world, int i, int i1) {
+        return true;
+    }
+
     public String getIDString() {
         return "ReactorCraft Ores";
     }

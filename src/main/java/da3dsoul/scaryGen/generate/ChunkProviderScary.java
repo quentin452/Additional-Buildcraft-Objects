@@ -78,8 +78,6 @@ public class ChunkProviderScary implements IChunkProvider {
     double[]						noiseGenDoubleArray4;
     double[]						noiseGenDoubleArray1;
     int[][]							field_73219_j				= new int[32][32];
-    @SuppressWarnings("unused")
-    private static final String		__OBFID						= "CL_00000396";
 
     public byte	index;
     public int heightLevel;

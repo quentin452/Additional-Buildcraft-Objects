@@ -60,12 +60,12 @@ public class BiomeStoneGen {
                 if(dist <= 50) {
                     if(!list.contains(((ItemBlock)stack.getItem()).field_150939_a)) {
                         list.add(((ItemBlock) stack.getItem()).field_150939_a);
-                        ABO.aboLog.info("Added " + blockName + " to " + biome.biomeName + " on the geostrataGen map");
+                 //       ABO.aboLog.info("Added " + blockName + " to " + biome.biomeName + " on the geostrataGen map");
                     }
                 }
             }
             biomeStoneArray[biome.biomeID] = (Block[]) list.toArray(new Block[list.size()]);
-            ABO.aboLog.info("Added " + biome.biomeName + " to the geostrataGen map with " + list.size() + " entries");
+         //   ABO.aboLog.info("Added " + biome.biomeName + " to the geostrataGen map with " + list.size() + " entries");
         }
     }
 

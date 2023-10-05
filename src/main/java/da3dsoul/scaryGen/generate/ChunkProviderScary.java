@@ -197,7 +197,7 @@ public class ChunkProviderScary implements IChunkProvider {
 
 
 
-                ABO.aboLog.info("Added " + j + " generator " + (j > 1 ? "overrides" : "override") + " to World Generation");
+            //    ABO.aboLog.info("Added " + j + " generator " + (j > 1 ? "overrides" : "override") + " to World Generation");
             } catch (Throwable t) {
                 ABO.aboLog.warn("Unable to modify ore gen for scaryGen");
                 t.printStackTrace();
